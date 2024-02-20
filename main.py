@@ -13,7 +13,7 @@ app = create_app()
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to MENTERU App"}
+    return {"message": "Welcome to MENTERU Company Application"}
 
 
 # Run the server
