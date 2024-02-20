@@ -18,4 +18,7 @@ async def root():
 
 # Run the server
 if __name__ == "__main__":
+    """Run the server
+    command: uvicorn main:app --reload
+    """
     uvicorn.run(app, host="localhost", port=8000)
