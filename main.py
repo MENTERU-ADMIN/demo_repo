@@ -13,9 +13,9 @@ app = create_app()
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to MENTERU App"}
+    return {"message": "Welcome to MENTERU Company Application"}
 
 
 # Run the server
 if __name__ == "__main__":
-    uvicorn.run(app, host="localhost", port=8000)
+    uvicorn.run(app, host="localhost", port=8800)
